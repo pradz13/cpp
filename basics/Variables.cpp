@@ -2,6 +2,16 @@
 #include <string>
 using namespace std;
 
+/**
+ * @brief Variables
+ * int - 4 bytes
+ * char - 1 byte
+ * bool - 1 byte
+ * float - 4 bytes
+ * double - 8 bytes
+ * 
+ * @return int 
+ */
 int main() {
     int intVar = 15;
     bool boolVar = true;
@@ -24,5 +34,9 @@ int main() {
 
     //Constants
     const float PI = 3.14;
-    cout << "Constant : " << PI;
+    cout << "Constant : " << PI << endl;
+
+    //Typecast
+    int a = 'a';
+    cout << "char to int : " << a;
 }
